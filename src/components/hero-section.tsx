@@ -59,7 +59,7 @@ export function HeroSectionComponent() {
             <p className='mt-4 text-xl text-gray-300'>
               We provide comprehensive security solutions tailored to your
               needs. From personnel deployment to cutting-edge surveillance
-              systems, we've got you covered.
+              systems, we&apos;ve got you covered.
             </p>
             <div className='mt-8 flex flex-col sm:flex-row justify-center gap-4'>
               <Button
