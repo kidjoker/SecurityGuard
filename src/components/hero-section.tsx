@@ -4,6 +4,7 @@ import { ChevronRight, Shield } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import Image from 'next/image';
 
 const images = [
   {
@@ -34,11 +35,13 @@ export function HeroSectionComponent() {
             key={index}
             className='h-full'
           >
-            <img
+            <Image
               src={image.src}
               alt={image.alt}
               className='w-full h-full object-cover'
               style={{ maxHeight: '100vh' }}
+              width={1920}
+              height={1080}
             />
           </div>
         ))}
