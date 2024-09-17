@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export function TestimonialsPartnersComponent() {
   const testimonials = [
@@ -72,19 +72,19 @@ export function TestimonialsPartnersComponent() {
 
   const [currentIndex, setCurrentIndex] = useState(1);
 
-  const nextTestimonial = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
-  };
-
-  const prevTestimonial = () => {
-    setCurrentIndex(
-      (prevIndex) => (prevIndex - 1 + testimonials.length) % testimonials.length
-    );
-  };
-
   const goToTestimonial = (index: number) => {
     setCurrentIndex(index);
   };
+
+  // 添加自动轮播功能
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
+    }, 5000); // 每5秒切换一次
+
+    // 清理函数
+    return () => clearInterval(timer);
+  }, []);
 
   return (
     <section className='py-16 bg-white'>

@@ -19,8 +19,8 @@ export function NavBarComponent() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <Shield className="h-8 w-8 text-blue-400" />
-              <span className="ml-2 text-xl font-bold">SecureGuard</span>
+              <img src="/logo.png" alt="TenforSecurity Logo" className="h-8 w-8" />
+              <span className="ml-2 text-xl font-bold">TenforSecurity</span>
             </Link>
           </div>
           <NavigationMenu>
