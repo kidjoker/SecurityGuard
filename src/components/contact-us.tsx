@@ -42,11 +42,11 @@ export function ContactUsComponent() {
 
       <main className="container mx-auto px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <section>
+          <section className="flex flex-col h-full">
             <h2 className="text-3xl font-bold mb-8 text-blue-600">Send Us a Message</h2>
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form onSubmit={handleSubmit} className="space-y-6 flex-grow">
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
+                <label htmlFor="name" className="block text-xl font-medium text-gray-700">Name</label>
                 <Input
                   type="text"
                   id="name"
@@ -58,7 +58,7 @@ export function ContactUsComponent() {
                 />
               </div>
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
+                <label htmlFor="email" className="block text-xl font-medium text-gray-700">Email</label>
                 <Input
                   type="email"
                   id="email"
@@ -70,7 +70,7 @@ export function ContactUsComponent() {
                 />
               </div>
               <div>
-                <label htmlFor="phone" className="block text-sm font-medium text-gray-700">Phone</label>
+                <label htmlFor="phone" className="block text-xl font-medium text-gray-700">Phone</label>
                 <Input
                   type="tel"
                   id="phone"
@@ -81,7 +81,7 @@ export function ContactUsComponent() {
                 />
               </div>
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700">Message</label>
+                <label htmlFor="message" className="block text-xl font-medium text-gray-700">Message</label>
                 <Textarea
                   id="message"
                   name="message"
@@ -89,7 +89,7 @@ export function ContactUsComponent() {
                   onChange={handleChange}
                   required
                   className="mt-1 block w-full"
-                  rows={4}
+                  rows={12}
                 />
               </div>
               <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white">
@@ -98,9 +98,9 @@ export function ContactUsComponent() {
             </form>
           </section>
 
-          <section>
+          <section className="flex flex-col h-full">
             <h2 className="text-3xl font-bold mb-8 text-blue-600">Contact Information</h2>
-            <div className="bg-white rounded-lg shadow-md p-6 space-y-6">
+            <div className="bg-white rounded-lg shadow-md p-6 space-y-6 text-gray-700 text-xl flex-grow">
               <div className="flex items-start">
                 <MapPin className="h-6 w-6 text-blue-600 mr-3 mt-1" />
                 <div>

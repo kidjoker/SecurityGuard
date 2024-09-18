@@ -12,7 +12,7 @@ const newsArticles = [
     title: "SecureGuard Launches New AI-Powered Surveillance System",
     excerpt: "Our latest innovation in security technology combines artificial intelligence with high-resolution cameras for unparalleled threat detection.",
     date: "2023-06-15",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/aipowered.png?height=200&width=300",
     category: "Technology"
   },
   {
@@ -20,7 +20,7 @@ const newsArticles = [
     title: "SecureGuard Expands Operations to Southeast Asia",
     excerpt: "We're excited to announce our expansion into the Southeast Asian market, bringing our world-class security solutions to new territories.",
     date: "2023-05-22",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/seasia.png?height=200&width=300",
     category: "Company News"
   },
   {
@@ -28,7 +28,7 @@ const newsArticles = [
     title: "The Rising Importance of Cybersecurity in Physical Security Systems",
     excerpt: "In this article, we explore the intersection of cybersecurity and physical security, and why it's crucial for modern businesses.",
     date: "2023-04-10",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/cybersecurity.png?height=200&width=300",
     category: "Industry Insights"
   },
   {
@@ -36,7 +36,7 @@ const newsArticles = [
     title: "SecureGuard Wins 'Security Company of the Year' Award",
     excerpt: "We're honored to be recognized as the Security Company of the Year at the Annual Security Excellence Awards.",
     date: "2023-03-05",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/securitycompany.png?height=200&width=300",
     category: "Awards"
   },
   {
@@ -44,7 +44,7 @@ const newsArticles = [
     title: "5 Essential Security Measures for Retail Businesses",
     excerpt: "Discover the key security strategies that every retail business should implement to protect their assets and customers.",
     date: "2023-02-18",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/retailsecurity.png?height=200&width=300",
     category: "Tips & Advice"
   },
   {
@@ -52,7 +52,7 @@ const newsArticles = [
     title: "SecureGuard Partners with Leading Smart Home Manufacturer",
     excerpt: "Our new partnership aims to integrate professional-grade security solutions with smart home technology for comprehensive home protection.",
     date: "2023-01-30",
-    image: "/placehold.svg?height=200&width=300",
+    image: "/manufacturer.png?height=200&width=300",
     category: "Partnerships"
   },
 ]

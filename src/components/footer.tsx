@@ -13,11 +13,11 @@ export function FooterComponent() {
               <Shield className="h-8 w-8 text-blue-400 mr-2" />
               <h3 className="text-lg font-semibold">SecureGuard</h3>
             </div>
-            <p className="text-sm">Protecting Your Assets, Always by Your Side</p>
+            <p className="text-xl">Protecting Your Assets, Always by Your Side</p>
           </div>
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
             <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
-            <ul className="text-sm space-y-2">
+            <ul className="text-xl space-y-2">
               <li><Link href="/services" className="hover:text-blue-400 transition-colors duration-200">Services</Link></li>
               <li><Link href="/industry-solutions" className="hover:text-blue-400 transition-colors duration-200">Industry Solutions</Link></li>
               <li><Link href="/about" className="hover:text-blue-400 transition-colors duration-200">About Us</Link></li>
@@ -26,14 +26,14 @@ export function FooterComponent() {
           </div>
           <div className="w-full md:w-1/3">
             <h3 className="text-lg font-semibold mb-2">Contact</h3>
-            <address className="text-sm not-italic">
+            <address className="text-xl not-italic">
               <p>123 Security Street, Safetown, ST 12345</p>
               <p>Phone: <a href="tel:+11234567890" className="hover:text-blue-400 transition-colors duration-200">(123) 456-7890</a></p>
               <p>Email: <a href="mailto:info@secureguard.com" className="hover:text-blue-400 transition-colors duration-200">info@secureguard.com</a></p>
             </address>
           </div>
         </div>
-        <div className="mt-8 text-center text-sm border-t border-gray-800 pt-8">
+        <div className="mt-8 text-center text-xl border-t border-gray-800 pt-8">
           <p>&copy; {new Date().getFullYear()} SecureGuard. All rights reserved.</p>
         </div>
       </div>

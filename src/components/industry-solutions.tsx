@@ -10,37 +10,37 @@ export function IndustrySolutionsComponent() {
       title: "Corporate", 
       description: "Comprehensive security solutions for office buildings and corporate campuses.",
       icon: Building2,
-      image: "/placeholder.svg?height=200&width=300"
+      image: "/office.png?height=200&width=300"
     },
     { 
       title: "Retail", 
       description: "Tailored security measures for stores, malls, and shopping centers.",
       icon: ShoppingBag,
-      image: "/placeholder.svg?height=200&width=300"
+      image: "/retail.png?height=200&width=300"
     },
     { 
       title: "Logistics", 
       description: "Advanced security for warehouses, distribution centers, and supply chains.",
       icon: Warehouse,
-      image: "/placeholder.svg?height=200&width=300"
+      image: "/logistics.png?height=200&width=300"
     },
     { 
       title: "Education", 
       description: "Specialized security solutions for schools, colleges, and universities.",
       icon: GraduationCap,
-      image: "/placeholder.svg?height=200&width=300"
+      image: "/education.png?height=200&width=300"
     },
     { 
       title: "Aviation", 
       description: "High-level security measures for airports and aviation facilities.",
       icon: Plane,
-      image: "/placeholder.svg?height=200&width=300"
+      image: "/aviation.png?height=200&width=300"
     },
     { 
       title: "Financial", 
       description: "Robust security systems for banks, credit unions, and financial institutions.",
       icon: Landmark,
-      image: "/placeholder.svg?height=200&width=300"
+      image: "/financial.png?height=200&width=300"
     },
   ]
 
@@ -75,8 +75,8 @@ export function IndustrySolutionsComponent() {
                   </div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-2">{industry.title}</h3>
-                  <p className="text-gray-600 mb-4">{industry.description}</p>
+                  <h3 className="text-xl font-semibold mb-2 text-blue-400">{industry.title}</h3>
+                  <p className="text-gray-600 mb-4 h-20 overflow-y-auto">{industry.description}</p>
                   <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">
                     Learn More
                   </Button>
@@ -115,7 +115,7 @@ export function IndustrySolutionsComponent() {
               </div>
               <div className="md:flex-1 relative h-64 md:h-auto">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/industrySolution.png"
                   alt="Industry-specific security solutions"
                   layout="fill"
                   objectFit="cover"

@@ -26,13 +26,13 @@ export function NavBarComponent() {
             <NavigationMenuList>
               <NavigationMenuItem>
                 <Link href="/" legacyBehavior passHref>
-                  <NavigationMenuLink className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700">
+                  <NavigationMenuLink className="px-3 py-2 rounded-md text-xl font-medium hover:bg-gray-700">
                     Home
                   </NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700">
+                <NavigationMenuTrigger className="px-3 py-2 rounded-md text-xl font-medium hover:bg-gray-700">
                   Services
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
@@ -41,7 +41,7 @@ export function NavBarComponent() {
                       <NavigationMenuLink asChild>
                         <Link
                           href="/services/personnel"
-                          className="block px-4 py-2 text-sm hover:bg-gray-700"
+                          className="block px-4 py-2 text-xl hover:bg-gray-700"
                         >
                           Security Personnel
                         </Link>
@@ -51,7 +51,7 @@ export function NavBarComponent() {
                       <NavigationMenuLink asChild>
                         <Link
                           href="/services/surveillance"
-                          className="block px-4 py-2 text-sm hover:bg-gray-700"
+                          className="block px-4 py-2 text-xl hover:bg-gray-700"
                         >
                           Surveillance Systems
                         </Link>
@@ -61,7 +61,7 @@ export function NavBarComponent() {
                       <NavigationMenuLink asChild>
                         <Link
                           href="/services/riskAssessment"
-                          className="block px-4 py-2 text-sm hover:bg-gray-700"
+                          className="block px-4 py-2 text-xl hover:bg-gray-700"
                         >
                           Risk Assessment
                         </Link>
@@ -72,28 +72,28 @@ export function NavBarComponent() {
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <Link href="/industrySolutions" legacyBehavior passHref>
-                  <NavigationMenuLink className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700">
+                  <NavigationMenuLink className="px-3 py-2 rounded-md text-xl font-medium hover:bg-gray-700">
                     Industry Solutions
                   </NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <Link href="/about" legacyBehavior passHref>
-                  <NavigationMenuLink className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700">
+                  <NavigationMenuLink className="px-3 py-2 rounded-md text-xl font-medium hover:bg-gray-700">
                     About Us
                   </NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <Link href="/news" legacyBehavior passHref>
-                  <NavigationMenuLink className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700">
+                  <NavigationMenuLink className="px-3 py-2 rounded-md text-xl font-medium hover:bg-gray-700">
                     News
                   </NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <Link href="/contact" legacyBehavior passHref>
-                  <NavigationMenuLink className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700">
+                  <NavigationMenuLink className="px-3 py-2 rounded-md text-xl font-medium hover:bg-gray-700">
                     Contact Us
                   </NavigationMenuLink>
                 </Link>
