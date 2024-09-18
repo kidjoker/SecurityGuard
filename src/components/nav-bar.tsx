@@ -60,7 +60,7 @@ export function NavBarComponent() {
                     <li>
                       <NavigationMenuLink asChild>
                         <Link
-                          href="/services/risk-assessment"
+                          href="/services/riskAssessment"
                           className="block px-4 py-2 text-sm hover:bg-gray-700"
                         >
                           Risk Assessment
@@ -71,7 +71,7 @@ export function NavBarComponent() {
                 </NavigationMenuContent>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <Link href="/industry-solutions" legacyBehavior passHref>
+                <Link href="/industrySolutions" legacyBehavior passHref>
                   <NavigationMenuLink className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700">
                     Industry Solutions
                   </NavigationMenuLink>

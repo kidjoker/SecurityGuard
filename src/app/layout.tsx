@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 import { Open_Sans } from 'next/font/google';
+import { NavBarComponent } from '@/components/nav-bar';
+import { FooterComponent } from '@/components/footer';
 
 const openSans = Open_Sans({
   subsets: ['latin'],
@@ -19,10 +21,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang='en'
-    >
-      <body className={openSans.className} style={{ fontSize: '1.5rem' }}>{children}</body>
+    <html lang='en'>
+      <body
+        className={openSans.className}
+        style={{ fontSize: '1.5rem' }}
+      >
+        <div className='min-h-screen flex flex-col'>
+          <NavBarComponent />
+          {children}
+          <FooterComponent />
+        </div>
+      </body>
     </html>
   );
 }
