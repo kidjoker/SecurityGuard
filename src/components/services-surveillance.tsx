@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { Camera, Shield, Eye, Cpu, BarChart, ChevronRight } from 'lucide-react';
+import { Camera, Shield, Eye, Cpu, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useEffect, useState } from 'react';
 

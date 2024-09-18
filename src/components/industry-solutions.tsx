@@ -152,14 +152,14 @@ export function IndustrySolutionsComponent() {
             <div className="mb-8 border-b pb-8">
               <h3 className="text-xl font-semibold mb-2 text-blue-400">Major Retail Chain</h3>
               <p className="text-gray-600 mb-4">
-                "SecureGuard's retail-specific security solution has significantly reduced our shrinkage rates and improved overall store safety. Their integrated approach combining surveillance, access control, and trained personnel has been a game-changer for our operations."
+                SecureGuard&apos;s retail-specific security solution has significantly reduced our shrinkage rates and improved overall store safety. Their integrated approach combining surveillance, access control, and trained personnel has been a game-changer for our operations.
               </p>
               <p className="text-sm text-gray-500">- John Doe, Director of Loss Prevention</p>
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-2 text-blue-400">International Airport</h3>
               <p className="text-gray-600 mb-4">
-                "The aviation security solutions provided by SecureGuard have enhanced our ability to manage complex security challenges. Their expertise in regulatory compliance and cutting-edge technology has been invaluable in maintaining the highest security standards."
+                The aviation security solutions provided by SecureGuard have enhanced our ability to manage complex security challenges. Their expertise in regulatory compliance and cutting-edge technology has been invaluable in maintaining the highest security standards.
               </p>
               <p className="text-sm text-gray-500">- Jane Smith, Head of Airport Security</p>
             </div>

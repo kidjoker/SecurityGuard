@@ -123,7 +123,7 @@ export function RiskAssessmentComponent() {
               At SecureGuard, we are committed to providing thorough and actionable risk assessments. Our team of certified security professionals uses industry-leading methodologies and cutting-edge tools to deliver comprehensive insights into your security posture.
             </p>
             <p className="text-lg text-gray-700 mb-6">
-              We understand that each organization faces unique security challenges. That's why we tailor our risk assessment approach to your specific needs, ensuring that you receive relevant and valuable recommendations to enhance your security measures.
+              We understand that each organization faces unique security challenges. That&apos;s why we tailor our risk assessment approach to your specific needs, ensuring that you receive relevant and valuable recommendations to enhance your security measures.
             </p>
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
               Learn More About Our Expertise
