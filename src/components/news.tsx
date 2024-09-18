@@ -52,7 +52,7 @@ const newsArticles = [
     title: "SecureGuard Partners with Leading Smart Home Manufacturer",
     excerpt: "Our new partnership aims to integrate professional-grade security solutions with smart home technology for comprehensive home protection.",
     date: "2023-01-30",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/placeholde.svg?height=200&width=300",
     category: "Partnerships"
   },
 ]
