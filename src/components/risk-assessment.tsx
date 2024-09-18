@@ -103,7 +103,7 @@ export function RiskAssessmentComponent() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-2 text-blue-400">Cybersecurity Risk Assessment</h3>
-              <p className="text-gray-600">Identify vulnerabilities in your digital infrastructure and assess your organization's resilience against cyber threats.</p>
+              <p className="text-gray-600">Identify vulnerabilities in your digital infrastructure and assess your organization&apos;s resilience against cyber threats.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-2 text-blue-400">Emergency Preparedness Evaluation</h3>

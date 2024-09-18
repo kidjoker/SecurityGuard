@@ -129,7 +129,7 @@ export function AboutUsComponent() {
               <div className="md:flex-1 p-8">
                 <h2 className="text-3xl font-bold mb-4">Join Our Team</h2>
                 <p className="mb-6">
-                  We're always looking for talented individuals who are passionate about security and committed to excellence. Join us in our mission to create a safer world.
+                  We&apos;re always looking for talented individuals who are passionate about security and committed to excellence. Join us in our mission to create a safer world.
                 </p>
                 <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
                   View Career Opportunities

@@ -131,7 +131,7 @@ export function IndustrySolutionsComponent() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-3xl font-bold text-blue-600 mb-4">01</div>
               <h3 className="text-xl font-semibold mb-2 text-blue-400">Industry Analysis</h3>
-              <p className="text-gray-600">We conduct a thorough analysis of your industry's specific security challenges and regulatory requirements.</p>
+              <p className="text-gray-600">We conduct a thorough analysis of your industry&apos;s specific security challenges and regulatory requirements.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-3xl font-bold text-blue-600 mb-4">02</div>
