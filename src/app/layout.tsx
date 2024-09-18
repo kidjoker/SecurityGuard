@@ -29,7 +29,9 @@ export default function RootLayout({
         <div className='min-h-screen flex flex-col'>
           <NavBarComponent />
           {children}
-          <FooterComponent />
+          <div className="hidden md:block">
+            <FooterComponent />
+          </div>
         </div>
       </body>
     </html>

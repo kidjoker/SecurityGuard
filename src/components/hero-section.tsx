@@ -19,40 +19,42 @@ const images = [
 
 export function HeroSectionComponent() {
   return (
-    <section className='relative h-[100vh]'>
-      <Carousel
-        showThumbs={false}
-        showStatus={false}
-        infiniteLoop={true}
-        autoPlay={true}
-        interval={5000}
-        className='h-full'
-        renderArrowPrev={() => null}
-        renderArrowNext={() => null}
-      >
-        {images.map((image, index) => (
-          <div
-            key={index}
-            className='h-full'
-          >
-            <Image
-              src={image.src}
-              alt={image.alt}
-              className='w-full h-full object-cover'
-              style={{ maxHeight: '100vh' }}
-              width={1920}
-              height={1080}
-            />
-          </div>
-        ))}
-      </Carousel>
+    <section className='relative h-[100vh] md:block hidden'>
+      <div className="hidden md:block">
+        <Carousel
+          showThumbs={false}
+          showStatus={false}
+          infiniteLoop={true}
+          autoPlay={true}
+          interval={5000}
+          className='h-full'
+          renderArrowPrev={() => null}
+          renderArrowNext={() => null}
+        >
+          {images.map((image, index) => (
+            <div
+              key={index}
+              className='h-full'
+            >
+              <Image
+                src={image.src}
+                alt={image.alt}
+                className='w-full h-full object-cover'
+                style={{ maxHeight: '100vh' }}
+                width={1920}
+                height={1080}
+              />
+            </div>
+          ))}
+        </Carousel>
+      </div>
       <div
         id='hero-section'
         className='absolute inset-0 flex items-center justify-center'
       >
         <div className='container mx-auto'>
           <div className='max-w-3xl mx-auto text-center'>
-            <h1 className='text-4xl font-extrabold leading-tight tracking-tight text-white sm:text-5xl md:text-6xl'>
+            <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight text-white'>
               <span>Protecting Your Assets,</span>
               <span className='block text-blue-400'>Always by Your Side</span>
             </h1>
