@@ -102,18 +102,18 @@ export function TestimonialsPartnersComponent() {
                   key={index}
                   className={`transition-all duration-300 ${
                     offset === 0
-                      ? 'w-full md:w-[600px] z-10 scale-100'
-                      : 'w-3/4 md:w-[500px] opacity-50 scale-90'
-                  } mx-4`}
+                      ? 'w-full sm:w-[90%] md:w-[600px] z-10 scale-100'
+                      : 'hidden sm:block w-3/4 sm:w-[80%] md:w-[500px] opacity-50 scale-90'
+                  } mx-2 sm:mx-4`}
                 >
                   <CardHeader>
-                    <CardTitle>{testimonial.name}</CardTitle>
-                    <p className='text-sm text-gray-500'>
+                    <CardTitle className="text-lg sm:text-xl">{testimonial.name}</CardTitle>
+                    <p className='text-xs sm:text-sm text-gray-500'>
                       {testimonial.company}
                     </p>
                   </CardHeader>
                   <CardContent>
-                    <p className='italic'>{testimonial.text}</p>
+                    <p className='italic text-sm sm:text-base'>{testimonial.text}</p>
                   </CardContent>
                 </Card>
               );

@@ -28,7 +28,7 @@ export function NavBarComponent() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <img src="/logo.png" alt="TenforSecurity Logo" className="h-8 w-8" />
+              <img src="/logo.png" alt="TenforSecurity Logo" className="h-10 w-10" />
               <span className="ml-2 text-xl font-bold">TenforSecurity</span>
             </Link>
           </div>
